@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/037a8f5580.js" crossorigin="anonymous"></script>
+    <title>brovardhs</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Times New Roman', Times, serif;
+            scroll-behavior: smooth;
+        }
+        header{
+            width: 100%;
+            height: 500px;
+            background-color: aqua;
+        }
+        iframe{
+            width: 100%;
+            height: 100%;
+        }
+        .container{
+            display: flex;
+            
+        }
+        .container .box{
+            width: 500px;
+            height: 600px;
+            background-color: #484848;
+            margin: 30px  10px;
+        }
+        .box img{
+            width: 500px;
+            height: 600px;
+            align-items: center;
+        }
+        .box form{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            form input{
+                margin: 20px 0;
+                width: 300px;
+                padding: 15px 20px;
+                border-radius: 20px;
+                outline: none;
+                border: 1px solid orangered;
+            }
+            form textarea{
+                width: 300px;
+                height: 200px;
+            }
+            form button{
+                width: 100px;
+                align-items: center;
+                padding: 15px 20px;
+                margin: 15px auto;
+            }
+            .contact{
+                width: 400px;
+                height: 400px;
+                background-color: orange;
+                margin: 10px auto;
+                align-items: center;
+                font-weight: bolder;
+            }
+            .contact p{
+                color: aliceblue;
+                text-align: center;
+                padding: 10px 0;
+            }
+        @media(max-width: 768px) {
+            .container {
+                display: flex;
+                flex-direction: column;
+            }
+            header{
+                height: 300px;
+            }
+            .container .box{
+                height: 500px;
+                width: 100%;
+            }
+            .box img{
+                width: 100%;
+                height: 500px;
+            }
+            form textarea{
+                height: 150px;
+            }
+            form input{
+                margin: 10px 0;}
+       
+        }
+    </style>
+</head>
+<body>
+    <header>
+        
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31918.12979010543!2d32.478415471301496!3d0.2927966810763915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177da30c0ff52f15%3A0x1057f81f49ca6fbc!2sKyengera!5e0!3m2!1sen!2sug!4v1698371494787!5m2!1sen!2sug" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </header>
+    <div class="container">
+        <div class="box">
+        <img src="pics/Screenshot_20231028_040512_WhatsAppBusiness.jpg" alt="">
+        </div>
+        <div class="box">
+            <form  action = "https://formsubmit.co/kakoozaxenyondo@gmail.com" method="POST">
+                <h2>REGISTER HERE</h2>
+                <input type="text" name="name" placeholder="Write your name here" required>
+                <input type="number" name="number" placeholder="Write your number here" required>
+                <input type="email" name="email" placeholder="Write your email here" required>
+                <textarea placeholder="Write your message here" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+    <div class="contact">
+        <p><i class="fa-solid fa-school"></i> Brovard Harvens School- Kyengera </p>
+        <p>Inginite Ascendimus</p>
+        <p>P.O Box 1133359 - WAKISO</p>
+        <p><i class="fa-solid fa-phone"></i> +256200999055 </p>
+        <p><i class="fa-solid fa-phone"></i> +256744025032</p>
+        <p><i class="fa-solid fa-phone"></i> +256780430732 </p>   
+       <p><i class="fa-brands fa-whatsapp"></i> +256744025034</p>
+        <p><i class="fa-solid fa-envelope"></i> brovardharvensschool@gmail.com</p>
+       <p>&copy;2023 All rights reversed</p>
+    </div>
+
+</body>
+
+</html>
