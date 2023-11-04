@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/037a8f5580.js" crossorigin="anonymous"></script>
+    <title>about us</title>
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Franklin Gothic Medium';
+    }
+    h1{
+        text-align: center;
+        cursor: pointer;
+        margin: 20px 0 0 0;
+    }
+    .basic{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 60px 0 0 0;
+        cursor: pointer;
+    }
+    .basic .box{
+        width: 400px;
+        height: 450px;
+        background-color: orangered;
+       
+    }
+    .box h2{
+        text-align: center;
+        margin: 20px 0 0 0;
+        cursor: pointer;
+        font-weight: bolder;
+    }
+    .box p{
+        font-size: 25px;
+        color: aliceblue;
+        font-weight: bolder;
+        padding: 15px 5px;
+        text-align: center;
+        cursor: pointer;
+    }
+    .bag{
+        width: 100%;
+        height: 500px;
+        margin: 50px 0;
+        display: flex;
+        flex-direction: row;
+    }
+    .teach{
+        width: 100%;
+        height: 490px;
+        background: blue;
+        margin: 0 20px;
+     
+    }
+    .teach img{
+        width: 200px;
+        height: 200px;
+        margin: 10px 80px;
+        border-radius: 60%;
+        transition: .3s;
+    }
+
+    .teach h3{
+        color: aliceblue;
+        text-align: center;
+        font-weight: bolder;
+    }
+    .teach p{
+        color: aliceblue;
+        font-weight: bolder;
+        padding: 10px 10px;
+    }
+    .budge{
+        width: 100%;
+        height: 800px;
+        margin: 50px 10px;
+        align-items: center;
+    }
+    .budge img{
+        margin: 0 160px;
+    }
+
+    @media(max-width: 768px) {
+        .basic{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+    } 
+    .basic .box{
+        width: 350px;
+       margin: 40px 0 0 0;
+    }
+    .bag{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: 100px 0 0 0;
+        width: 350px;
+        height: 200vh;
+    }
+    .bag .teach{
+        width: 350px;
+       margin: 20px 0 0 0;
+    }
+    .budge {
+        width: 350px;
+       margin: 100px 0 0 0;
+       height: 70vh;
+    }
+    .budge img{
+        width: 350px;
+       margin: 40px 0 0 0;
+    }
+        
+    }
+</style>
+
+<body>
+    <content>
+        <h1>ABOUT US</h1>
+        <div class="basic">
+            <div class="box">
+                <h2>MISSION</h2>
+                <p>To provide a nurturing learning environment where young minds flourish their creativity 
+                    and responsibility.</p>
+            </div>
+            <div class="box">
+                <h2>VISION</h2>
+                <p>We foster academic excellence and talent growth to produce a holistic
+                    individual to succeed in a competitive world.
+                </p>
+            </div>
+            <div class="box">
+                <h2>CORE VALUES</h2>
+                <p>H - Hospitality</p>
+                <p>A - Academic Excellence</p>
+                <p>R - Respect for God</p>
+                <p>V - Vitality</p>
+                <p>E - Exemplarily</p>
+                <p>N - Nurturing</p>
+                <p>S - Smartness</p>
+            </div>
+        </div>
+        <div class="bag">
+            <div class="teach">
+            <a href="pics/t3.jpeg"><img src="pics/t3.jpeg" alt=""></a>    
+                <h3>DIRECTOR</h3>
+                <p>Expertise</p>
+                <p>Our intimate knowledge of the industry allows us to craft a service uniquely tailored to your business needs</p>
+            </div>
+            <div class="teach">
+                <a href="pics/t5.jpeg"><img src="pics/t5.jpeg" alt=""></a>
+                <h3>BURSAR</h3>
+                <p>Excellence</p>
+                <p>We create unparalleled experiences that exceed your expectations with a passion for perfection and attention to detail.</p>
+            </div>
+            <div class="teach">
+               <a href="n/10.jpg"><img src="n/10.jpg" alt=""></a>
+                <h3>DEPUTY PRINCIPAL</h3>
+                <p>Professionalism</p>
+                <p>We deliver top-notch service, and handle requests with expertise, ensuring the education service is smooth and hassle-free.</p>
+            </div>
+        </div>
+        <div class="budge">
+            <img src="pics/IMG-20231018-WA0012.jpg">
+          
+        </div>
+    </content>
+</body>
+
+</html>
